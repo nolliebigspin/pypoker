@@ -13,4 +13,4 @@ def transform(number):
     return value
 
 def out_single_card(card):
-    print('Color: {} \nValue: {}'.format(card.color.capitalize(), transform(card.number)))
+    print("{}, {}".format(card.color.capitalize(), transform(card.number)))
