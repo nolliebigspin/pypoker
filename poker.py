@@ -19,7 +19,7 @@ def give_hand(pokerdeck):
 
 def give_flop(pokerdeck):
     print("\nFlop:")
-    for player in range(pos_flop, pos_flop + 2):
+    for player in range(pos_flop, pos_flop + 3):
         output.out_single_card(pokerdeck.deck[player])
 
 def give_turn(pokerdeck):
